@@ -77,6 +77,22 @@ if [[ $input == "y" || $input == "Y" ]]; then
 	sudo apt-get remove mlterm-tiny -y
 	sudo apt-get remove xiterm+thai -y
 	sudo apt-get remove malcontent -y
+	sudo apt-get remove gnome-maps -y
+	sudo apt-get remove gnome-color-manager -y
+	sudo apt-get remove gnome-clocks -y
+	sudo apt-get remove calander -y
+	sudo apt-get remove file-roller -y
+	sudo apt-get remove gnome-music -y
+	sudo apt-get remove gnome-weather -y
+	sudo apt-get remove rhythmbox* -y
+	sudo apt-get remove evolution -y
+	sudo apt-get remove gnome-photos -y
+	sudo apt-get remove baobab -y
+	sudo apt-get remove gnome-disks
+	sudo apt-get remove gnome-logs -y
+	sudo apt-get remove nm-connection-editor -y
+	sudo apt-get remove gnome-extensions -y
+	sudo apt autoremove
 	echo All Done!
 else
     echo ""
