@@ -4,7 +4,7 @@ This script removes some of the included software, games and utilites on Debian 
 
 ## How do i run this script?
 
-cd into the directory
+cd into the directory where the script is located
 
 ``` cd path/to/debloat.sh ```
 
