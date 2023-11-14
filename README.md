@@ -10,6 +10,3 @@ cd into the directory.
 run the script.
 
 ``` sudo bash debloat.sh ```
-
-
-Thanks to https://github.com/LostByteSoft/Debian-10, I got a basic list of stuff to remove, then I added onto that.
